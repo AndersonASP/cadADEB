@@ -1,0 +1,54 @@
+<?php
+include '../../controllers/verifica_sessao.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album</title>
+    <link rel="stylesheet" href="../../../assets/_css/album.css">
+
+</head>
+<body>
+<div id="inteface">
+    <header>
+        <nav id="menu">
+            <ul type="disc">
+                <li onmouseover="mudaFoto('../../../assets/imagens/casa.png').style.transition='opacity 1s'" onmouseout="mudaFoto
+             ('../../../assets/imagens/media.png')">
+                    <a href="cssehtml.phtml">
+                        home
+                    </a>
+                </li>
+
+                <li onmouseover="mudaFoto('../../../assets/imagens/camera.png').style.transition='opacity 1s'" onmouseout="mudaFoto
+             ('../../../assets/imagens/media.png')">
+                    <a href="allbum.phtml">
+                        Album de Fotos
+                    </a>
+                </li>
+
+                <li onmouseover="mudaFoto('../../../assets/imagens/media.png').style.transition='opacity 1s'" onmouseout="mudaFoto
+             ('../../../assets/imagens/media.png')">
+                    <a href="media.phtml">
+                        Multimedia
+                    </a>
+                </li>
+                <li><a href="">teste 4</a></li>
+                <li onmouseover="mudaFoto('../../../assets/imagens/sair.png')" onmouseout="mudaFoto
+            ('../../../assets/imagens/guitar.png')"><?php echo "<a href=\"../../controllers/logout.php\">Sair</a>";?></li>
+            </ul>
+        </nav>
+        <div>
+            <img id="icone" src="../../../assets/imagens/media.png"/>
+        </div>
+        <h1>Multimedia</h1>
+    </header>
+
+
+
+</div>
+
+</body>
+<script src="../../../assets/_js/geraljs.js"></script>
+</html>

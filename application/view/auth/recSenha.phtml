@@ -1,0 +1,53 @@
+<?php
+include 'controllers/verifica_sessao.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste CSS e HTML</title>
+    <link rel="stylesheet" href="../../../assets/_css/geracss.css">
+
+</head>
+<body>
+<div id="inteface">
+    <header>
+        <div>
+            <img id="icone" src="../../../assets/imagens/guitar.png"/>
+        </div>
+        <h1>Login dos Membros</h1>
+    </header>
+    <form method="post" action="../../controllers/geraSenha.php">
+        <fieldset id="usuario"><legend>Dados para acesso</legend>
+            <p>
+                <label>Digite Seu cpf:
+                    <input type="text" name="cpf" id="cpf" maxlength="11" >
+                </label>
+            </p>
+            <p>
+                <label>Senha Atual:
+                    <input type="password" name="senhaA" id="senhaA" maxlength="10" >
+                </label>
+            </p>
+            <p>
+                <label>Nova Senha:
+                    <input type="password" name="senhaN" id="senhaN" maxlength="10" >
+                </label>
+            </p>
+            <p>
+                <label>Redigite sua Senha:
+                    <input type="password" name="senhaR" id="senha" maxlength="10" >
+                </label>
+            </p>
+
+        </fieldset>
+        <input type="submit" value="gerar nova senha" class="btn" >
+    </form>
+
+</div>
+
+</body>
+<script src="../../../assets/_js/geraljs.js"></script>
+<script src="../../../assets/_js/form.js"></script>
+
+</html>

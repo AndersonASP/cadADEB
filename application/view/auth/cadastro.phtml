@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste CSS e HTML</title>
+    <link rel="stylesheet" href="../../../assets/_css/cadastroelogin.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+<body>
+<div id="inteface">
+    <header>
+        <div>
+            <img id="icone" src="../../../assets/imagens/guitar.png"/>
+        </div>
+        <h1 id="h1-cad">Cadastro de novos Membros</h1>
+    </header>
+<form method="post" id="form_contato" action="/application/controllers/cadastrar.php" class="form">
+    <fieldset id="usuario"><legend><strong>Indentificão do Usuário</strong></legend>
+        <table>
+        <tr class="form-group">
+            <td>
+                <label for="cpf" class="label">
+                    CPF:
+                </label>
+            </td>
+            <td>
+                <input type="text" class="input form-control form-control-sm" name="cpf" id="cpf" size="35" maxlength="11" required >
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td>
+                <label for="nome" class="label">
+                    Nome:
+                </label>
+            </td>
+            <td>
+                <input type="text" class="input form-control form-control-sm" name="nome" id="nome" size="35">
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td>
+                <label for="email" class="label">
+                    Email:
+                </label>
+            </td>
+            <td>
+               <input type="email" class="input form-control form-control-sm" name="email" id="email" size="35" maxlength="30" >
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td>
+                <label for="senha" class="label">
+                    Senha:
+                </label class="label">
+            </td>
+            <td>
+                <input type="password" class="input form-control form-control-sm" name="senha" id="senha" size="35" maxlength="48">
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td>
+                <label for="tel" class="label">
+                    Tel. Celular:
+                </label>
+            </td>
+            <td>
+                <input type="text" name="tel" class="input form-control form-control-sm" id="tel" size="35" maxlength="11" >
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td>
+                <label for="data" id="label-data" class="label">
+                    Data de Aniversário:
+                </label>
+            </td>
+            <td>
+                <input type="text" class="input form-control form-control-sm" name="data" id="data" >
+            </td>
+        </tr>
+
+        </table>
+    </fieldset>
+        <div>
+            <input type="submit" id="btn" value="cadastrar" onsubmit="" class="btn btn-primary" >
+        </div>
+</form>
+<!--    <div>-->
+<!--        <a href="login.phtml"><input type="submit" id="btn" value="Fazer login"  class="btn" ></a>-->
+<!--    </div>-->
+</div>
+
+</body>
+    <script type="text/javascript" src="../../../assets/_js/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../../../assets/_js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="../../../assets/_js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../../../assets/_js/form.js"></script>
+</html>
