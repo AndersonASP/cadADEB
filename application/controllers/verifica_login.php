@@ -43,6 +43,6 @@ if(!($cpf) || !($senha)) {
         }
 
     }else{
-        echo "O CPF e ou SENHA informados não estão cadastrados. <a href='http://cadadeb.local/cadastro.phtml'>Clique aqui</a> para efetuar cadastro";
+        echo "O CPF e ou SENHA informados não estão cadastrados. <a href='http://cadadeb.local/application/view/auth/cadastro.phtml'>Clique aqui</a> para efetuar cadastro";
     }
 }

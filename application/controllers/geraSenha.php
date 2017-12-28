@@ -8,33 +8,30 @@
 
 /*Editar senha*/
 include_once('../configs/conection.php');
-$senhaA = $_POST['senhaA'];
-$senhaN = $_POST['senhaN'];
-$senhaR = $_POST['senhaR'];
-$cpf = $_POST['cpf'];
-
-$senhaEn = md5($senhaA);
-
-$checkSenha = "select count(member_id) from usuario.membros WHERE senha='{$senhaEn}'";
-$res = pg_query($db, $checkSenha);
-
-$sRe = pg_fetch_array($res,0);
-
-$resultadoNome = pg_query($db, "select nome from usuario.membros where cpf='{$cpf}'" );
-$resultadoNome2 = pg_fetch_array($db, $resultadoNome);
-//Nome2); echo '</pre>';
-$checkSenha = $sRe[0];
-if($checkSenha > 0){
-    if($senhaN === $senhaR) {
-        $senhaS = md5($senhaN);
-        $senhaN = $senhaR;
-
-        pg_query($db, "update usuario.membros set senha ='{$senhaS}' where cpf='{$cpf}'");
 
 
-//        $to = "anderson.pereira@basis.com.br";
-//        $subject = "Cadastro de novo membro";
-//        $mensagem = "<strong>Nome:{$nome}</strong>" ;
+$senhaNova = $_POST['senhaN'];
+$senhaNRepetida = $_POST['senhaR'];
+$cpf = preg_replace("/\D+/", "" ,$_POST['cpf']);
 
+$senhaEn = md5($senhaNova);
+
+/*Checa se todos os campos foram preenchidos*/
+if(empty($senhaNova) || empty($senhaNRepetida) || empty($cpf)){
+    echo "<script>alert('Existem Dados que não foram preenchidos.');</script>";
+}else {
+    /*Checa se o email informado está cadastrado*/
+    $check_email = pg_query($db, "select * from usuario.membros where cpf='{$cpf}'");
+    $check_num = pg_num_rows($check_email);
+
+    if ($check_num == 0) {
+
+        echo "<strong>Este CPF não está cadastrado em nosso sistema</strong>";
+    }else{
+        pg_query($db, "update usuario.membros set senha ='{$senhaEn}' WHERE cpf='{$cpf}'");
+        echo "<script>alert('Sua nova senha foi gravada com Sucesso!')</script>";
+        echo "<script>alert('Sua nova senha é:"." $senhaNova');</script>";
+        header("Location: ../view/auth/login.phtml");
     }
+
 }

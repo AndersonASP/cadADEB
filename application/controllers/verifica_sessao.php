@@ -9,6 +9,6 @@ session_start();
 if (!isset($_SESSION['cpf'])){
 
     header("Location:/application/view/auth/login.phtml");
-    exit();
+    exit("Por favor, faça o login para acessar a página deseja! Caso não tenha acesso, efetue o cadastro e logue!");
 
 }

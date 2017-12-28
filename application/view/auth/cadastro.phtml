@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Teste CSS e HTML</title>
     <link rel="stylesheet" href="../../../assets/_css/cadastroelogin.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script type="text/javascript" src="../../../assets/_js/jquery-3.2.1.min.js"></script>
+
 
 </head>
 <body>
@@ -25,7 +26,7 @@
                 </label>
             </td>
             <td>
-                <input type="text" class="input form-control form-control-sm" name="cpf" id="cpf" size="35" maxlength="11" required >
+                <input type="text" class="input " name="cpf" id="cpf" >
             </td>
         </tr>
         <tr class="form-group">
@@ -35,7 +36,7 @@
                 </label>
             </td>
             <td>
-                <input type="text" class="input form-control form-control-sm" name="nome" id="nome" size="35">
+                <input type="text" class="input " name="nome" id="nome" >
             </td>
         </tr>
         <tr class="form-group">
@@ -45,7 +46,7 @@
                 </label>
             </td>
             <td>
-               <input type="email" class="input form-control form-control-sm" name="email" id="email" size="35" maxlength="30" >
+               <input type="email" class="input " name="email" id="email">
             </td>
         </tr>
         <tr class="form-group">
@@ -55,7 +56,17 @@
                 </label class="label">
             </td>
             <td>
-                <input type="password" class="input form-control form-control-sm" name="senha" id="senha" size="35" maxlength="48">
+                <input type="password" class="input " name="senha" id="senha"  maxlength="48">
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td>
+                <label for="Rsenha" class="label">
+                   Redigite a Senha:
+                </label class="label">
+            </td>
+            <td>
+                <input type="password" class="input " name="Rsenha" id="Rsenha"  maxlength="48">
             </td>
         </tr>
         <tr class="form-group">
@@ -65,7 +76,7 @@
                 </label>
             </td>
             <td>
-                <input type="text" name="tel" class="input form-control form-control-sm" id="tel" size="35" maxlength="11" >
+                <input type="text" name="tel" class="input " id="tel">
             </td>
         </tr>
         <tr class="form-group">
@@ -75,15 +86,15 @@
                 </label>
             </td>
             <td>
-                <input type="text" class="input form-control form-control-sm" name="data" id="data" >
+                <input type="text" class="input " name="data" id="data" data-validation="birthdate">
             </td>
         </tr>
 
         </table>
-    </fieldset>
         <div>
             <input type="submit" id="btn" value="cadastrar" onsubmit="" class="btn btn-primary" >
         </div>
+    </fieldset>
 </form>
 <!--    <div>-->
 <!--        <a href="login.phtml"><input type="submit" id="btn" value="Fazer login"  class="btn" ></a>-->
@@ -91,8 +102,6 @@
 </div>
 
 </body>
-    <script type="text/javascript" src="../../../assets/_js/jquery-3.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../../../assets/_js/jquery.mask.min.js"></script>
     <script type="text/javascript" src="../../../assets/_js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="../../../assets/_js/form.js"></script>

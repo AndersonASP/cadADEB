@@ -1,12 +1,9 @@
-<?php
-include 'controllers/verifica_sessao.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Teste CSS e HTML</title>
-    <link rel="stylesheet" href="../../../assets/_css/geracss.css">
+    <title>Recupera Senha</title>
+    <link rel="stylesheet" href="../../../assets/_css/cadastroelogin.css">
 
 </head>
 <body>
@@ -15,31 +12,45 @@ include 'controllers/verifica_sessao.php';
         <div>
             <img id="icone" src="../../../assets/imagens/guitar.png"/>
         </div>
-        <h1>Login dos Membros</h1>
+        <h1>Recuperar Senha</h1>
     </header>
-    <form method="post" action="../../controllers/geraSenha.php">
-        <fieldset id="usuario"><legend>Dados para acesso</legend>
-            <p>
-                <label>Digite Seu cpf:
-                    <input type="text" name="cpf" id="cpf" maxlength="11" >
-                </label>
-            </p>
-            <p>
-                <label>Senha Atual:
-                    <input type="password" name="senhaA" id="senhaA" maxlength="10" >
-                </label>
-            </p>
-            <p>
-                <label>Nova Senha:
-                    <input type="password" name="senhaN" id="senhaN" maxlength="10" >
-                </label>
-            </p>
-            <p>
-                <label>Redigite sua Senha:
-                    <input type="password" name="senhaR" id="senha" maxlength="10" >
-                </label>
-            </p>
-
+    <form method="post" action="../../../application/controllers/geraSenha.php">
+        <fieldset id="usuario"><legend><strong>Dados para acesso</strong></legend>
+           <table>
+                <tr class="form-group">
+                    <td>
+                        <label for="cpf" class="label">
+                            Cpf:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" class="input" name="cpf" id="cpf"   >
+                    </td>
+                </tr>
+                <tr class="form-group">
+                    <td>
+                        <label for="senhaN" class="label">
+                            Digite sua nova senha:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="password" name="senhaN" class="input" id="senhaN"  >
+                    </td>
+                </tr>
+                <tr class="form-group">
+                    <td>
+                        <label for="senhaR"  class="label">
+                            Repita sua nova Senha:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="password" class="input" name="senhaR" id="senhaR" >
+                    </td>
+                </tr>
+           </table>
+        <div style="float: right">
+            <a id="btn-senha" href="login.phtml">Fazer login</a>
+        </div>
         </fieldset>
         <input type="submit" value="gerar nova senha" class="btn" >
     </form>
@@ -47,6 +58,9 @@ include 'controllers/verifica_sessao.php';
 </div>
 
 </body>
+<script type="text/javascript" src="../../../assets/_js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../assets/_js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="../../../assets/_js/jquery.validate.min.js"></script>
 <script src="../../../assets/_js/geraljs.js"></script>
 <script src="../../../assets/_js/form.js"></script>
 

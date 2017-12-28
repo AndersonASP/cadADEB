@@ -72,44 +72,28 @@ if(!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)){
             unset($cpf);
         }
     }else {
-        $sql = "insert into usuario.membros (cpf,nome, dt_aniver, tel_cel, email, senha, data_cad) VALUES ('$cpf','$nome','$data','$tel','$email','$senhaenc', '$data_cad')";
+        $sql = "insert into usuario.membros (cpf,nome, dt_aniver, tel_cel, email, senha, data_cad) VALUES ('$cpf','$nome','$data', '$tel','$email','$senhaenc','$data_cad')";
         $salvar = pg_query($db, $sql);
 
+        echo "<script>alert('Cadastro efetuado com sucesso! Sua senha é:{$senha}')</script>";
 
 
         // Enviar um email ao usuário para confirmação e ativar o cadastro!
-
-        $headers = 'MIME-Version: 1.0\n'
-        . 'Content-type: text/html; charset=iso-8859-1\n'
-        .'anderson.fera9@gmail.com';
-
+        $headers = "From:". $nome;
         $subject = "Confirmação de cadastro - teusite.com.br";
-        $mensagem = "<strong>Prezado, {$nome}.</strong><br/>
-        <p>Obrigado pelo seu cadastro em nosso site, <a href='http://www.teusite.com.br'>
-        http://www.teusite.com.br</a>!<br/> <br/>
-        
-        Para confirmar seu cadastro e ativar sua conta em nosso site, podendo acessar à
-        áreas exclusivas, por favor clique no link abaixo ou copie e cole na barra de
-        endereço do seu navegador.<br/><br/>
-        
-        <br/><br/>
-        Após a ativação de sua conta, você poderá ter acesso ao conteúdo exclusivo
-        efetuado o login com os seguintes dados abaixo:<br > <br />
-        
-        <strong>Usuario</strong>:{$cpf}<br />
-        <strong>Senha</strong>:{$senha}<br /> <br />
-        
-        Obrigado!<br /> <br /></p>
-        
-        Webmaster<br /> <br /> <br />
-        Esta é uma mensagem automática, por favor não responda!";
+        $mensagem = "Amdwdmaowdmoamwomaowdmaowmdoamdoamwdoamdoamwd";
+        if (mail("anderson.asp.si@gmail.com", $subject, $mensagem, $headers)){
+            echo "<script>alert('Foi enviado para seu email - (". $email .") um pedido de confirmação de cadastro, por favor verifique e sigas as instruções!')</script>";
 
-        mail($email, $subject, $mensagem, $headers);
+        }else{
+            echo "<script>alert('Email não enviado.')</script>";
+        }
 
-        echo "<strong>Cadastro efetuado com sucesso!</strong>Foi enviado para seu email - <strong>( " . $email . " )</strong> um pedido de
-     confirmação de cadastro, por favor verifique e sigas as instruções!";
+
+
     }
 }
+
 
 
 
