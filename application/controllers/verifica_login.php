@@ -15,17 +15,20 @@ $senha = $_POST['senha'];
 $data_now = date('Y-m-d H:i');
 
 if(!($cpf) || !($senha)) {
-    echo "Preencha todos os campos";
+    echo "<script>alert('Preencha todos os campos');
+ window.location.href ='/application/view/auth/login.phtml';
+    </script>";
 }else {
     $senhad = md5($senha);
-    $sql = "select * from usuario.membros where cpf='{$cpf}' and senha='{$senhad}'";
+    $sql = "select * from usuario.membros where cpf='{$cpf}' and senha='{$senhad}' and usu_ativ='false'";
     $res = pg_query($db, $sql);
 
     $login_check = pg_num_rows($res);
 
+
     if ($login_check > 0) {
 
-        while ($row = pg_fetch_array($res)) {
+        while ($row = pg_fetch_assoc($res)) {
 
             foreach ($row AS $key => $val) {
 
@@ -35,14 +38,19 @@ if(!($cpf) || !($senha)) {
 
             $_SESSION['cpf'] = $cpf;
             $_SESSION['nome'] = $nome;
+            $_SESSION['nivel'] = $row['level_acess'];
+
 
             pg_query($db, "update usuario.membros set data_ult_login ='{$data_now}' WHERE cpf='{$cpf}'");
 
-            header('Location: http://cadadeb.local/application/view/blog/cssehtml.phtml');
+            echo "<script>
+                    window.location.href ='/application/view/blog/cssehtml.phtml';
+                    alert('Olá, $nome! Seja Bem-vindo!');
+                  </script>";
 
         }
 
     }else{
-        echo "O CPF e ou SENHA informados não estão cadastrados. <a href='http://cadadeb.local/application/view/auth/cadastro.phtml'>Clique aqui</a> para efetuar cadastro";
+        echo "<script>alert('O CPF e ou SENHA informados não estão cadastrados. Faça seu cadastro ou recupere sua senha'</script>";
     }
 }

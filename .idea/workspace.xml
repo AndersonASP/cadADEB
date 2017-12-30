@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cd46bd-ea7f-4ce2-b7c8-2daa5e8cbdfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/_css/ativa-usu.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/application/controllers/cadastrar.php" afterPath="$PROJECT_DIR$/application/controllers/cadastrar.php" />
       <change beforePath="$PROJECT_DIR$/application/controllers/geraSenha.php" afterPath="$PROJECT_DIR$/application/controllers/geraSenha.php" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/logout.php" afterPath="$PROJECT_DIR$/application/controllers/logout.php" />
       <change beforePath="$PROJECT_DIR$/application/controllers/verifica_login.php" afterPath="$PROJECT_DIR$/application/controllers/verifica_login.php" />
       <change beforePath="$PROJECT_DIR$/application/controllers/verifica_sessao.php" afterPath="$PROJECT_DIR$/application/controllers/verifica_sessao.php" />
       <change beforePath="$PROJECT_DIR$/application/view/auth/cadastro.phtml" afterPath="$PROJECT_DIR$/application/view/auth/cadastro.phtml" />
       <change beforePath="$PROJECT_DIR$/application/view/auth/login.phtml" afterPath="$PROJECT_DIR$/application/view/auth/login.phtml" />
       <change beforePath="$PROJECT_DIR$/application/view/auth/recSenha.phtml" afterPath="$PROJECT_DIR$/application/view/auth/recSenha.phtml" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/cadastroelogin.css" afterPath="$PROJECT_DIR$/assets/_css/cadastroelogin.css" />
+      <change beforePath="$PROJECT_DIR$/application/view/blog/allbum.phtml" afterPath="$PROJECT_DIR$/application/view/blog/allbum.phtml" />
+      <change beforePath="$PROJECT_DIR$/application/view/blog/cssehtml.phtml" afterPath="$PROJECT_DIR$/application/view/blog/cssehtml.phtml" />
+      <change beforePath="$PROJECT_DIR$/application/view/blog/media.phtml" afterPath="$PROJECT_DIR$/application/view/blog/media.phtml" />
       <change beforePath="$PROJECT_DIR$/assets/_js/form.js" afterPath="$PROJECT_DIR$/assets/_js/form.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +23,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="verifica_sessao.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/verifica_sessao.php">
+      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/view/auth/login.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="113" lean-forward="false" selection-start-line="11" selection-start-column="113" selection-end-line="11" selection-end-column="113" />
+            <state relative-caret-position="242">
+              <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -59,6 +73,7 @@
       <find>size=&quot;35&quot;</find>
       <find>maxlength=&quot;11&quot;</find>
       <find>maxlength=&quot;30&quot;</find>
+      <find>session_</find>
     </findStrings>
     <replaceStrings>
       <replace>35</replace>
@@ -101,21 +116,21 @@
         <option value="$PROJECT_DIR$/media.phtml" />
         <option value="$PROJECT_DIR$/recSenha.phtml" />
         <option value="$PROJECT_DIR$/allbum.phtml" />
-        <option value="$PROJECT_DIR$/application/view/blog/cssehtml.phtml" />
-        <option value="$PROJECT_DIR$/application/view/blog/allbum.phtml" />
-        <option value="$PROJECT_DIR$/application/view/blog/media.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/logout.php" />
         <option value="$PROJECT_DIR$/application/view/admin/ativa_usuario.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/verifica_login.php" />
         <option value="$PROJECT_DIR$/assets/_css/ativa-usu.css" />
         <option value="$PROJECT_DIR$/assets/_css/cadastroelogin.css" />
-        <option value="$PROJECT_DIR$/application/view/auth/login.phtml" />
-        <option value="$PROJECT_DIR$/application/view/auth/recSenha.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/logout.php" />
         <option value="$PROJECT_DIR$/application/controllers/geraSenha.php" />
-        <option value="$PROJECT_DIR$/application/view/auth/cadastro.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/cadastrar.php" />
-        <option value="$PROJECT_DIR$/assets/_js/form.js" />
+        <option value="$PROJECT_DIR$/application/view/blog/media.phtml" />
+        <option value="$PROJECT_DIR$/application/view/blog/cssehtml.phtml" />
+        <option value="$PROJECT_DIR$/application/view/blog/allbum.phtml" />
         <option value="$PROJECT_DIR$/application/controllers/verifica_sessao.php" />
+        <option value="$PROJECT_DIR$/assets/_js/form.js" />
+        <option value="$PROJECT_DIR$/application/view/auth/cadastro.phtml" />
+        <option value="$PROJECT_DIR$/application/view/auth/recSenha.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/verifica_login.php" />
+        <option value="$PROJECT_DIR$/application/view/auth/login.phtml" />
       </list>
     </option>
   </component>
@@ -133,14 +148,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="1366" />
+    <option name="width" value="1318" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -152,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -170,12 +185,21 @@
               <item name="cadadeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="cadadeb" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cadadeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cadadeb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
+        <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,6 +207,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MDIC/pnce.local" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,6 +236,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="cadadeb" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.cadadeb" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -233,25 +269,30 @@
       <workItem from="1514389219624" duration="1310000" />
       <workItem from="1514392001884" duration="7093000" />
       <workItem from="1514414689841" duration="17636000" />
-      <workItem from="1514457648375" duration="8833000" />
+      <workItem from="1514457648375" duration="10509000" />
+      <workItem from="1514558484374" duration="4074000" />
+      <workItem from="1514598227465" duration="13691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105501000" />
+    <option name="totallyTimeSpent" value="124942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1366" y="0" width="1318" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19530416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2004717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33052632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -259,7 +300,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -307,6 +347,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <marker date="1514611794643" expanded="true" signature="302:411" ph="..." />
+            <marker date="1514611794643" expanded="true" signature="462:546" ph="select * fro... membros" />
+            <marker date="1514611794643" expanded="true" signature="462:547" ph="select * niv... membros" />
+            <marker date="1514611794643" expanded="true" signature="462:553" ph="select * fro... membros" />
+            <marker date="1514611794643" expanded="true" signature="970:1045" ph="update usuario.membros... " />
+            <marker date="1514611794643" expanded="true" signature="1075:1244" ph="..." />
+            <marker date="1514611794643" expanded="true" signature="1292:1399" ph="..." />
+            <marker date="1514611794643" expanded="true" signature="1391:1399" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -314,7 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -337,9 +386,9 @@
         <state relative-caret-position="680">
           <caret line="45" column="38" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
-            <marker date="1514478007307" expanded="true" signature="1265:1329" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="1351:1419" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="2149:2304" ph="insert into usuario.membros... " />
+            <marker date="1514605843107" expanded="true" signature="689:753" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="775:843" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="1598:1753" ph="insert into usuario.membros... " />
           </folding>
         </state>
       </provider>
@@ -362,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -379,9 +426,9 @@
         <state relative-caret-position="255">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
-            <marker date="1514478007307" expanded="true" signature="1265:1329" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="1351:1419" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="2149:2304" ph="insert into usuario.membros... " />
+            <marker date="1514605843107" expanded="true" signature="689:753" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="775:843" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="1598:1753" ph="insert into usuario.membros... " />
           </folding>
         </state>
       </provider>
@@ -404,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -420,9 +466,9 @@
         <state relative-caret-position="323">
           <caret line="24" column="89" lean-forward="false" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
           <folding>
-            <marker date="1514478007307" expanded="true" signature="1265:1329" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="1351:1419" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="2149:2304" ph="insert into usuario.membros... " />
+            <marker date="1514605843107" expanded="true" signature="689:753" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="775:843" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="1598:1753" ph="insert into usuario.membros... " />
           </folding>
         </state>
       </provider>
@@ -466,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,34 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/blog/cssehtml.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="104" lean-forward="true" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/blog/allbum.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="104" lean-forward="false" selection-start-line="38" selection-start-column="104" selection-end-line="38" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/blog/media.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -554,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/verifica_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="45" column="116" lean-forward="false" selection-start-line="45" selection-start-column="116" selection-end-line="45" selection-end-column="116" />
         </state>
       </provider>
     </entry>
@@ -589,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="90" column="1" lean-forward="false" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,70 +620,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2499">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cadastrar.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="77" column="74" lean-forward="false" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
+        <state relative-caret-position="272">
+          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
           <folding>
-            <marker date="1514478007307" expanded="true" signature="1265:1329" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="1351:1419" ph="select count... membros" />
-            <marker date="1514478007307" expanded="true" signature="2149:2304" ph="insert into usuario.membros... " />
+            <marker date="1514603845238" expanded="true" signature="160:230" ph="..." />
+            <marker date="1514603845238" expanded="true" signature="160:259" ph="..." />
+            <marker date="1514603845238" expanded="true" signature="160:394" ph="..." />
+            <marker date="1514603845238" expanded="true" signature="250:259" ph="{...}" />
+            <marker date="1514603845238" expanded="true" signature="314:381" ph="{...}" />
+            <marker date="1514603845238" expanded="true" signature="446:567" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/geraSenha.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+        <state relative-caret-position="137">
+          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="70" />
           <folding>
-            <marker date="1514474075439" expanded="true" signature="581:621" ph="select * fro... membros" />
-            <marker date="1514474075439" expanded="true" signature="581:629" ph="select * fro... membros" />
-            <marker date="1514474075439" expanded="true" signature="819:884" ph="update usuario.membros... " />
+            <marker date="1514603928875" expanded="true" signature="425:568" ph="..." />
+            <marker date="1514603928875" expanded="true" signature="665:705" ph="select * fro... membros" />
+            <marker date="1514603928875" expanded="true" signature="665:713" ph="select * fro... membros" />
+            <marker date="1514603928875" expanded="true" signature="811:948" ph="..." />
+            <marker date="1514603928875" expanded="true" signature="987:1052" ph="update usuario.membros... " />
+            <marker date="1514603928875" expanded="true" signature="1078:1177" ph="..." />
+            <marker date="1514603928875" expanded="true" signature="1078:1266" ph="..." />
+            <marker date="1514603928875" expanded="true" signature="1177:1266" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/auth/recSenha.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/auth/login.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/auth/cadastro.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/_js/form.js">
+    <entry file="file://$PROJECT_DIR$/application/view/blog/cssehtml.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/verifica_sessao.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <marker date="1514610344703" expanded="true" signature="336:519" ph="..." />
+            <marker date="1514610344703" expanded="true" signature="617:752" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/blog/allbum.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/blog/media.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cadastrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="117" lean-forward="false" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
+          <folding>
+            <marker date="1514605843107" expanded="true" signature="689:753" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="775:843" ph="select count... membros" />
+            <marker date="1514605843107" expanded="true" signature="1598:1753" ph="insert into usuario.membros... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/auth/cadastro.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/_js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="113" lean-forward="false" selection-start-line="11" selection-start-column="113" selection-end-line="11" selection-end-column="113" />
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/auth/recSenha.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/verifica_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <marker date="1514611794643" expanded="true" signature="302:411" ph="..." />
+            <marker date="1514611794643" expanded="true" signature="462:546" ph="select * fro... membros" />
+            <marker date="1514611794643" expanded="true" signature="462:547" ph="select * niv... membros" />
+            <marker date="1514611794643" expanded="true" signature="462:553" ph="select * fro... membros" />
+            <marker date="1514611794643" expanded="true" signature="970:1045" ph="update usuario.membros... " />
+            <marker date="1514611794643" expanded="true" signature="1075:1244" ph="..." />
+            <marker date="1514611794643" expanded="true" signature="1292:1399" ph="..." />
+            <marker date="1514611794643" expanded="true" signature="1391:1399" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/auth/login.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding />
         </state>
       </provider>
