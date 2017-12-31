@@ -1,0 +1,3 @@
+CREATE DATABASE cadadeb;
+
+CREATE SCHEMA membros;

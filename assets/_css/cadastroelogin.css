@@ -60,7 +60,7 @@ nav#menu ul{
     position: absolute;
     top: 0px;
     left: 100px;
-    margin: -3px 20px 0px 320px;
+    margin: -3px 20px 0px -320px;
 }
 nav#menu li{
     display: inline-block;
