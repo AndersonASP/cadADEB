@@ -51,6 +51,8 @@ if(!($cpf) || !($senha)) {
         }
 
     }else{
-        echo "<script>alert('O CPF e ou SENHA informados não estão cadastrados. Faça seu cadastro ou recupere sua senha'</script>";
+        echo "<script>alert('O CPF e ou SENHA informados não estão cadastrados. Faça seu cadastro ou recupere sua senha')
+        window.location.href = 'javascript:history.go(-1)';
+        </script>";
     }
 }

@@ -15,7 +15,7 @@ detroi a sessão
 */
 if (!isset($_SESSION['cpf']) or (!isset($_SESSION['nome']))){
 
-echo "<script>alert('Por favor, faça o login para acessar a página deseja! Caso não tenha acesso, efetue o cadastro e logue!');
+echo "<script>alert('Por favor, faça o login para acessar a página desejada! Caso não tenha acesso, efetue o cadastro e logue!');
 window.location.href ='/application/view/auth/login.phtml';
 </script>";
 
