@@ -2,230 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cd46bd-ea7f-4ce2-b7c8-2daa5e8cbdfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="$PROJECT_DIR$/.idea/cadadeb.iml" afterPath="$PROJECT_DIR$/.idea/cadadeb.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/LICENSE" afterPath="$PROJECT_DIR$/PHPMailer-master/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/README.md" afterPath="$PROJECT_DIR$/PHPMailer-master/README.md" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/SECURITY.md" afterPath="$PROJECT_DIR$/PHPMailer-master/SECURITY.md" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/VERSION" afterPath="$PROJECT_DIR$/PHPMailer-master/VERSION" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/get_oauth_token.php" afterPath="$PROJECT_DIR$/PHPMailer-master/get_oauth_token.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-am.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-am.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ar.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ar.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-az.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-az.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ba.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ba.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-be.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-be.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-bg.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-bg.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ca.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ca.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ch.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ch.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-cs.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-cs.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-da.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-da.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-de.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-de.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-el.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-el.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-eo.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-eo.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-es.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-es.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-et.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-et.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fa.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fa.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fi.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fi.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fo.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fo.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fr.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-fr.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-gl.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-gl.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-he.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-he.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-hr.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-hr.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-hu.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-hu.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-id.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-id.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-it.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-it.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ja.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ja.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ka.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ka.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ko.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ko.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-lt.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-lt.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-lv.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-lv.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ms.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ms.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-nb.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-nb.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-nl.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-nl.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pl.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pl.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pt.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pt.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pt_br.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-pt_br.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ro.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ro.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-rs.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-rs.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ru.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-ru.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sk.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sk.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sl.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sl.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sv.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-sv.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-tr.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-tr.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-uk.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-uk.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-vi.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-vi.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-zh.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-zh.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-zh_cn.php" afterPath="$PROJECT_DIR$/PHPMailer-master/language/phpmailer.lang-zh_cn.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/src/Exception.php" afterPath="$PROJECT_DIR$/PHPMailer-master/src/Exception.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/src/OAuth.php" afterPath="$PROJECT_DIR$/PHPMailer-master/src/OAuth.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/src/PHPMailer.php" afterPath="$PROJECT_DIR$/PHPMailer-master/src/PHPMailer.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/src/POP3.php" afterPath="$PROJECT_DIR$/PHPMailer-master/src/POP3.php" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer-master/src/SMTP.php" afterPath="$PROJECT_DIR$/PHPMailer-master/src/SMTP.php" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/application/configs/conection.php" afterPath="$PROJECT_DIR$/application/configs/conection.php" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/cadastrar.php" afterPath="$PROJECT_DIR$/application/controllers/cadastrar.php" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/geraSenha.php" afterPath="$PROJECT_DIR$/application/controllers/geraSenha.php" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/logout.php" afterPath="$PROJECT_DIR$/application/controllers/logout.php" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/verifica_login.php" afterPath="$PROJECT_DIR$/application/controllers/verifica_login.php" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/verifica_sessao.php" afterPath="$PROJECT_DIR$/application/controllers/verifica_sessao.php" />
-      <change beforePath="$PROJECT_DIR$/application/view/admin/ativa_usuario.phtml" afterPath="$PROJECT_DIR$/application/view/admin/ativa_usuario.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/admin/cadastra_usu.phtml" afterPath="$PROJECT_DIR$/application/view/admin/cadastra_usu.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/auth/cadastro.phtml" afterPath="$PROJECT_DIR$/application/view/auth/cadastro.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/auth/login.phtml" afterPath="$PROJECT_DIR$/application/view/auth/login.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/auth/recSenha.phtml" afterPath="$PROJECT_DIR$/application/view/auth/recSenha.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/blog/allbum.phtml" afterPath="$PROJECT_DIR$/application/view/blog/allbum.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/blog/cssehtml.phtml" afterPath="$PROJECT_DIR$/application/view/blog/cssehtml.phtml" />
-      <change beforePath="$PROJECT_DIR$/application/view/blog/media.phtml" afterPath="$PROJECT_DIR$/application/view/blog/media.phtml" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/album.css" afterPath="$PROJECT_DIR$/assets/_css/album.css" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/ativa-usu.css" afterPath="$PROJECT_DIR$/assets/_css/ativa-usu.css" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/cadastroelogin.css" afterPath="$PROJECT_DIR$/assets/_css/cadastroelogin.css" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/geracss.css" afterPath="$PROJECT_DIR$/assets/_css/geracss.css" />
-      <change beforePath="$PROJECT_DIR$/assets/_css/media.css" afterPath="$PROJECT_DIR$/assets/_css/media.css" />
-      <change beforePath="$PROJECT_DIR$/assets/_js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/_js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/assets/_js/form.js" afterPath="$PROJECT_DIR$/assets/_js/form.js" />
-      <change beforePath="$PROJECT_DIR$/assets/_js/geraljs.js" afterPath="$PROJECT_DIR$/assets/_js/geraljs.js" />
-      <change beforePath="$PROJECT_DIR$/assets/_js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/assets/_js/jquery-3.2.1.min.js" />
-      <change beforePath="$PROJECT_DIR$/assets/_js/jquery.mask.min.js" afterPath="$PROJECT_DIR$/assets/_js/jquery.mask.min.js" />
-      <change beforePath="$PROJECT_DIR$/assets/_js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/assets/_js/jquery.validate.min.js" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/camera.png" afterPath="$PROJECT_DIR$/assets/imagens/camera.png" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/casa.jpeg" afterPath="$PROJECT_DIR$/assets/imagens/casa.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/casa.png" afterPath="$PROJECT_DIR$/assets/imagens/casa.png" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/guitar.png" afterPath="$PROJECT_DIR$/assets/imagens/guitar.png" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/guitarra.png" afterPath="$PROJECT_DIR$/assets/imagens/guitarra.png" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/leao.jpeg" afterPath="$PROJECT_DIR$/assets/imagens/leao.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/media.png" afterPath="$PROJECT_DIR$/assets/imagens/media.png" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/sair.jpeg" afterPath="$PROJECT_DIR$/assets/imagens/sair.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/sair.png" afterPath="$PROJECT_DIR$/assets/imagens/sair.png" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/tigre.jpeg" afterPath="$PROJECT_DIR$/assets/imagens/tigre.jpeg" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery-validate/README.md" afterPath="$PROJECT_DIR$/node_modules/jquery-validate/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery-validate/package.json" afterPath="$PROJECT_DIR$/node_modules/jquery-validate/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" afterPath="$PROJECT_DIR$/node_modules/jquery/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/bower.json" afterPath="$PROJECT_DIR$/node_modules/jquery/bower.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rmargin.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -252,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -389,6 +167,17 @@
               <item name="cadadeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="cadadeb" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="cadadeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cadadeb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cadadeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cadadeb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -400,7 +189,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estudosOO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MDIC/pnce.local" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -466,12 +255,12 @@
       <workItem from="1514457648375" duration="10509000" />
       <workItem from="1514558484374" duration="4074000" />
       <workItem from="1514598227465" duration="14449000" />
-      <workItem from="1514677940553" duration="1073000" />
+      <workItem from="1514677940553" duration="1826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126773000" />
+    <option name="totallyTimeSpent" value="127526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1318" height="768" extended-state="6" />
@@ -919,7 +708,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
