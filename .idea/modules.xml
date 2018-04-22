@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../cadadeb/.idea/cadadeb.iml" filepath="$PROJECT_DIR$/../cadadeb/.idea/cadadeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cadADEB.iml" filepath="$PROJECT_DIR$/.idea/cadADEB.iml" />
     </modules>
   </component>
 </project>

@@ -14,13 +14,13 @@ $cpf = preg_replace("/\D+/", "", $_POST['cpf']);
 $senha = $_POST['senha'];
 $data_now = date('Y-m-d H:i');
 
-if(!($cpf) || !($senha)) {
+if (!($cpf) || !($senha)) {
     echo "<script>alert('Preencha todos os campos');
  window.location.href ='/application/view/auth/login.phtml';
     </script>";
-}else {
+} else {
     $senhad = md5($senha);
-    $sql = "select * from usuario.membros where cpf='{$cpf}' and senha='{$senhad}' and usu_ativ='false'";
+    $sql = "select * from membros.membros where cpf='{$cpf}' and senha='{$senhad}' and status='1'";
     $res = pg_query($db, $sql);
 
     $login_check = pg_num_rows($res);
@@ -41,7 +41,7 @@ if(!($cpf) || !($senha)) {
             $_SESSION['nivel'] = $row['level_acess'];
 
 
-            pg_query($db, "update usuario.membros set data_ult_login ='{$data_now}' WHERE cpf='{$cpf}'");
+            pg_query($db, "update membros.membros set data_ult_login ='{$data_now}' WHERE cpf='{$cpf}'");
 
             echo "<script>
                     window.location.href ='/application/view/blog/cssehtml.phtml';
@@ -50,7 +50,7 @@ if(!($cpf) || !($senha)) {
 
         }
 
-    }else{
+    } else {
         echo "<script>alert('O CPF e ou SENHA informados não estão cadastrados. Faça seu cadastro ou recupere sua senha')
         window.location.href = 'javascript:history.go(-1)';
         </script>";

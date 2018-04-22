@@ -1,4 +1,16 @@
-create table usuario.membros(
+CREATE TABLE membros.tb_acess_level (
+	id_level serial NOT NULL,
+	ds_nome_level varchar(100) NOT NULL,
+	CONSTRAINT tb_acess_level_pkey PRIMARY KEY (id_level)
+);
+
+CREATE TABLE membros.tb_status (
+	id_status serial NOT NULL,
+	ds_status varchar(100) NOT NULL,
+	CONSTRAINT tb_status_pkey PRIMARY KEY (id_status)
+);
+
+CREATE TABLE membros.membros (
   member_id  serial primary key not null,
   cpf varchar(11) not null unique,
   nome varchar(45) not null,

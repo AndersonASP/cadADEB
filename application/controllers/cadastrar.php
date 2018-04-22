@@ -14,17 +14,17 @@ include_once('../configs/conection.php');
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
-$cpf=preg_replace("/\D+/", "", $_POST['cpf']);
-$data =preg_replace("/\D+/","", $_POST['data']);
-$tel =preg_replace("/\D+/","", $_POST['tel']);
+$cpf = preg_replace("/\D+/", "", $_POST['cpf']);
+$data = preg_replace("/\D+/", "", $_POST['data']);
+$tel = preg_replace("/\D+/", "", $_POST['tel']);
 $data_cad = date('Y-m-d H:i');
 $senhaenc = md5($senha);
 
-if(!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)){
+if (!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)) {
     echo "<script>alert('Existem campos que não foram preenchidos'); window.location.href ='javascript:history.go(-1)';</script>";
-}else {
-    $checkCPF = "select count (member_id) from usuario.membros WHERE cpf='{$cpf}'";
-    $checkemail = "select count (member_id) from usuario.membros WHERE email='{$email}'";
+} else {
+    $checkCPF = "select count (member_id) from membros.membros WHERE cpf='{$cpf}'";
+    $checkemail = "select count (member_id) from membros.membros WHERE email='{$email}'";
 
     $recEmail = pg_query($db, $checkemail);
     $recCpf = pg_query($db, $checkCPF);
@@ -49,14 +49,14 @@ if(!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)){
 
         }
     } else {
-        $sql = "insert into usuario.membros (cpf,nome, dt_aniver, tel_cel, email, senha, data_cad) VALUES ('$cpf','$nome','$data', '$tel','$email','$senhaenc','$data_cad')";
+        $sql = "insert into membros.membros (cpf,nome, dt_aniver, tel_cel, email, senha, data_cad) VALUES ('$cpf','$nome','$data', '$tel','$email','$senhaenc','$data_cad')";
         $salvar = pg_query($db, $sql);
 
-        echo "<script>alert('Cadastro efetuado com sucesso! Sua senha é:{$senha} Faça seu login!')</script>";
+        echo "<script>alert('Cadastro efetuado com sucesso! Sua senha é: {$senha} Faça seu login!')</script>";
 
 
         // Enviar um email ao usuário para confirmação e ativar o cadastro!
-        $headers = "From:" . $nome;
+        $headers = "From:" . $email;
         $subject = "Confirmação de cadastro - teusite.com.br";
         $mensagem = "Amdwdmaowdmoamwomaowdmaowmdoamdoamwdoamdoamwd";
         if (mail("anderson.asp.si@gmail.com", $subject, $mensagem, $headers)) {
