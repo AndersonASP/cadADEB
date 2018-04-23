@@ -1,8 +1,8 @@
 <?php
 $nivel_necessario = 1;
-include '../../controllers/verifica_sessao.php';
-include('../../configs/conection.php');
-include "../../controllers/viewuser.php";
+include_once '../../controllers/verifica_sessao.php';
+include_once '../../configs/conection.php';
+include_once "../../controllers/listuser.php";
 ?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
@@ -19,7 +19,7 @@ include "../../controllers/viewuser.php";
 <body>
 <div id="inteface">
     <header>
-        <a href="cssehtml.phtml">Voltar para pagina principal</a>
+
         <div>
             <img id="icone" src="../../../assets/imagens/guitar.png"/>
         </div>
@@ -41,7 +41,7 @@ include "../../controllers/viewuser.php";
             </tr>
             </thead>
             <tbody>
-            <?php while (pg_fetch_assoc($sql1)) {  ?>
+            <?php while ($date = pg_fetch_assoc($sql1)) {  ?>
             <tr>
                 <th scope="row"><?php echo $date['member_id'];?></th>
                 <td>
@@ -63,7 +63,30 @@ include "../../controllers/viewuser.php";
                     <?php echo $date['ds_nome_level']; ?>
                 </td>
                 <td>
-                    <a title="Excluir usuário" href="/application/controllers/viewuser.php?acao=excluir&id='<?php echo $date['member_id'];?>'">Excluir</a>
+                    <?php if($date['ds_status'] !== "excluído") : ?>
+                    <a href="/application/controllers/manteruser.php?acao=view&id=<?php echo $date['member_id'];?>">
+                        <button title="Visualizar usuário">
+                            <i class="material-icons">search</i>
+                        </button>
+                    </a>
+
+                    <a href="/application/controllers/manteruser.php?acao=excluir&id=<?php echo $date['member_id'];?>">
+                        <button title="Excluir usuário">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </a>
+                    <a href="/application/controllers/manteruser.php?acao=editar&id=<?php echo $date['member_id'];?>">
+                        <button title="Editar usuário">
+                            <i class="material-icons">edit</i>
+                        </button>
+                    </a>
+                    <?php else:?>
+                    <a href="/application/controllers/manteruser.php?acao=view&id=<?php echo $date['member_id'];?>">
+                        <button title="Visualizar usuário">
+                            <i class="material-icons">search</i>
+                        </button>
+                    </a>
+                    <?php endif;?>
                 </td>
             </tr>
             <?php } ?>
