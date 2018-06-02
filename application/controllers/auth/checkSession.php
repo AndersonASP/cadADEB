@@ -16,7 +16,7 @@ detroi a sessão
 if (!isset($_SESSION['cpf']) or (!isset($_SESSION['nome']))){
 
 echo "<script>alert('Por favor, faça o login para acessar a página desejada! Caso não tenha acesso, efetue o cadastro e logue!');
-window.location.href ='/application/view/auth/login.phtml';
+window.location.href ='/application/views/admin/auth/login.phtml';
 </script>";
 
 session_destroy();

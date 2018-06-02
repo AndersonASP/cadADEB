@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste CSS e HTML</title>
+    <link href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../assets/_css/login.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+<form class="form-signin" action="/application/controllers/auth/checkLogin.php">
+
+    <h1 class="h3 mb-3 font-weight-bold">
+        CadUsu
+    </h1>
+
+    <label for="cpf" class="sr-only">
+        Cpf
+    </label>
+    <input type="text" id="cpf" class="form-control" placeholder="Cpf" required autofocus>
+
+    <label for="senha" class="sr-only">
+        Senha</label>
+    <input type="password" id="senha" class="form-control" placeholder="Senha" required>
+
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> lembre-me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2018-2018</p>
+</form>
+
+</body>
+
+<script type="text/javascript" src="../../../../assets/_js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../../assets/_js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="../../../../assets/_js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="../../../../assets/_js/form.js"></script>
+
+
+</html>

@@ -20,5 +20,5 @@ if(!isset($_REQUEST['logmeout'])){
 else{
     session_destroy();
     echo "<script>alert('Voce não está mais logado no Sistema!'); 
-    window.location.href ='/application/view/auth/login.phtml';</script>";
+    window.location.href ='../../views/admin/auth/login.phtml';</script>";
 }

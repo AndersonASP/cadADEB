@@ -1,26 +1,28 @@
 <?php
-include_once "../../controllers/listuser.php";
+include_once '../../../controllers/auth/checkSession.php';
+include_once '../../../../application/configs/conection.php';
+include_once "../../../controllers/user/listuser.php";
 ?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Teste CSS e HTML</title>
-    <link rel="stylesheet" href="../../../assets/_css/cadastroelogin.css">
-    <script type="text/javascript" src="../../../assets/_js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="../../../../assets/_css/cadastroelogin.css">
+    <script type="text/javascript" src="../../../../assets/_js/jquery-3.2.1.min.js"></script>
 
 
 </head>
 <body>
 <div id="inteface">
     <header>
-        <a href="cssehtml.phtml">Voltar para pagina principal</a>
+        <a href="../../blog/index.phtml">Voltar para pagina principal</a>
         <div>
-            <img id="icone" src="../../../assets/imagens/guitar.png"/>
+            <img id="icone" src="../../../../assets/imagens/guitar.png"/>
         </div>
-        <h1 id="h1-cad">Cadastro de novos Membros</h1>
+        <h1 id="h1-cad">Visualisar Usuário</h1>
     </header>
-    <form method="post" id="form_contato" action="/application/controllers/cadastrar.php" class="form">
+    <form method="post" id="form_contato" action="/application/controllers/user/registerUser.php" class="form">
         <fieldset id="usuario"><legend><strong>Visualizar Usuário</strong></legend>
             <?php $date = pg_fetch_assoc($sql1)?>
             <table>
@@ -83,7 +85,7 @@ include_once "../../controllers/listuser.php";
 </div>
 
 </body>
-<script type="text/javascript" src="../../../assets/_js/jquery.mask.min.js"></script>
-<script type="text/javascript" src="../../../assets/_js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="../../../assets/_js/form.js"></script>
+<script type="text/javascript" src="../../../../assets/_js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="../../../../assets/_js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="../../../../assets/_js/form.js"></script>
 </html>

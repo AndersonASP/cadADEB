@@ -39,12 +39,12 @@ if (!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)) {
         echo "<br>ERROR:<br><br>";
 
         if ($email_check > 0) {
-            echo "<script>alert('O email {$email} já está cadastrado!'); window.location.href ='/application/view/auth/login.phtml';</script>";
+            echo "<script>alert('O email {$email} já está cadastrado!'); window.location.href ='../../views/admin/auth/login.phtml';</script>";
             unset($email);
 
         }
         if ($cpf_check > 0) {
-            echo "<script>alert('O cpf {$cpf} já está cadastrado!Faça seu login');window.location.href ='/application/view/auth/login.phtml';</script>";
+            echo "<script>alert('O cpf {$cpf} já está cadastrado!Faça seu login');window.location.href ='../../views/admin/auth/login.phtml';</script>";
             unset($cpf);
 
         }
@@ -71,7 +71,7 @@ if (!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)) {
             echo "<script>alert('Email não enviado.')</script>";
         }
 
-        echo "<script>window.location.href = '/application/view/auth/login.phtml';</script>";
+        echo "<script>window.location.href = '../../views/admin/auth/login.phtml';</script>";
     }
 }
 pg_close($db);

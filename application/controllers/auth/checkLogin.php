@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anderson
- * Date: 26/12/17
- * Time: 03:36
- */
 
 session_start();
 
-include_once('../configs/conection.php');
+include_once('../../configs/conection.php');
 
 $cpf = preg_replace("/\D+/", "", $_POST['cpf']);
 $senha = $_POST['senha'];
@@ -16,16 +10,15 @@ $data_now = date('Y-m-d H:i');
 
 if (!($cpf) || !($senha)) {
     echo "<script>alert('Preencha todos os campos');
- window.location.href ='/application/view/auth/login.phtml';
-    </script>";
+               window.location.href ='../../views/admin/auth/login.phtml';
+          </script>";
 } else {
     $senhad = md5($senha);
     $sql = "select * from membros.membros where cpf='{$cpf}' and senha='{$senhad}' and id_status='1'";
     $res = pg_query($db, $sql);
 
     $login_check = pg_num_rows($res);
-
-
+    echo "<pre>";print_r($login_check);echo "</pre>";
     if ($login_check > 0) {
 
         while ($row = pg_fetch_assoc($res)) {
@@ -44,7 +37,7 @@ if (!($cpf) || !($senha)) {
             pg_query($db, "update membros.membros set data_ult_login ='{$data_now}' WHERE cpf='{$cpf}'");
 
             echo "<script>
-                    window.location.href ='/application/view/blog/cssehtml.phtml';
+                    window.location.href ='../../views/auth/admin.phtml';
                     alert('Olá, $nome! Seja Bem-vindo!');
                   </script>";
 
