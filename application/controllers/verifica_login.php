@@ -20,7 +20,7 @@ if (!($cpf) || !($senha)) {
     </script>";
 } else {
     $senhad = md5($senha);
-    $sql = "select * from membros.membros where cpf='{$cpf}' and senha='{$senhad}' and status='1'";
+    $sql = "select * from membros.membros where cpf='{$cpf}' and senha='{$senhad}' and id_status='1'";
     $res = pg_query($db, $sql);
 
     $login_check = pg_num_rows($res);

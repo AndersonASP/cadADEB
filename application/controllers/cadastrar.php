@@ -8,7 +8,6 @@
 
 date_default_timezone_set('America/Sao_Paulo');
 
-
 include_once('../configs/conection.php');
 
 $nome = $_POST['nome'];
@@ -34,25 +33,31 @@ if (!($nome) || !($email) || !($senha) || !($cpf) || !($data) || !($tel)) {
 
     $email_check = $eReg[0];
     $cpf_check = $cReg[0];
+    echo "<pre>";print_r($email_check);echo "</pre>";
 
     if ($email_check || $cpf_check) {
         echo "<br>ERROR:<br><br>";
 
         if ($email_check > 0) {
-            echo "<script>alert('Este EMAIL já está cadastrado!'); window.location.href ='/application/view/auth/login.phtml';</script>";
+            echo "<script>alert('O email {$email} já está cadastrado!'); window.location.href ='/application/view/auth/login.phtml';</script>";
             unset($email);
 
         }
         if ($cpf_check > 0) {
-            echo "<script>alert('Este CPF já está cadastrado!Faça seu login');window.location.href ='/application/view/auth/login.phtml';</script>";
+            echo "<script>alert('O cpf {$cpf} já está cadastrado!Faça seu login');window.location.href ='/application/view/auth/login.phtml';</script>";
             unset($cpf);
 
         }
     } else {
-        $sql = "insert into membros.membros (cpf,nome, dt_aniver, tel_cel, email, senha, data_cad) VALUES ('$cpf','$nome','$data', '$tel','$email','$senhaenc','$data_cad')";
+
+        $sql = "insert into membros.membros (cpf,nome, dt_aniver, tel_cel, email, senha, data_cad, id_status) VALUES ('$cpf','$nome','$data', '$tel','$email','$senhaenc','$data_cad', 1)";
         $salvar = pg_query($db, $sql);
 
-        echo "<script>alert('Cadastro efetuado com sucesso! Sua senha é: {$senha} Faça seu login!')</script>";
+        if(!$salvar){
+            echo "<script>alert('Error ao Cadastrar Usuário')</script>";
+        }else{
+            echo "<script>alert('Cadastro efetuado com sucesso! Sua senha é: {$senha} Faça seu login!')</script>";
+        }
 
 
         // Enviar um email ao usuário para confirmação e ativar o cadastro!

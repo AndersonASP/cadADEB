@@ -1,0 +1,25 @@
+version: '3'
+services:
+    cad-db:
+        image: postgres:9.6
+        container_name: cad-db
+        environment:
+            ACCEPT_EULA: Y
+            SA_PASSWORD: B@sis123
+        ports:
+            - "5432:5432"
+        restart: always
+    cadadeb-api:
+        container_name: cadadeb-api
+        build:
+            context: ./
+        ports:
+            - "8200:80"
+        links:
+            - "cad-db"
+        volumes:
+            - ./:/var/www/html
+        restart: always
+networks:
+   default:
+        driver: bridge
